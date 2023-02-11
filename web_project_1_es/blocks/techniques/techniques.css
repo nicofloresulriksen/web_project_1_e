@@ -1,0 +1,64 @@
+
+.techniques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 1100px;
+    /* we don't know how to make mobile versions of websites yet, */
+    /* so here we've set a minimum page width */
+    max-width: 1600px;
+    /* here we've set a maximum page width */
+    margin: auto;
+    /* this ensures that all content is centered on screens wider than 1600px */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    
+  }
+  .techniques-section-title{
+    width: 60%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .techniques-section-subtitle{
+    width: 652px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  .techniques-cards{
+    width: 920px;
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .techniques-cards-item{
+    width: 240px;
+    margin-right: 66px;
+    
+    }
+    .techniques-cards-image{
+    height: 160px;
+    width: 160px;
+    margin-top: 60px;
+    margin-bottom: 43px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 50%;
+    }
+  .techniques-cards-title{
+    text-align: center;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .techniques-cards-description{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+  }

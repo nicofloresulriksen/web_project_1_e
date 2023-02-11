@@ -1,0 +1,70 @@
+@-webkit-keyframes rotation {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+.kaufman {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  z-index: -1;
+  overflow: hidden;
+}
+.kaufman-section-title-theme-dark {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 90px;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+}
+.kaufman-section-subtitle-theme-dark {
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.kaufman-table-theme-dark {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  width: 1100px;
+  margin-top: -20px;
+}
+.kaufman-table-cell {
+  width: 200px;
+  margin-top: 80px;
+}
+.kaufman-table-heading-theme-dark {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0;
+  line-height: 1.15;
+  font-size: 24px;
+}
+.kaufman-table-text-theme-dark {
+  font-weight: normal;
+  line-height: 1.2;
+  font-size: 18px;
+}
+.triangle {
+  position: absolute;
+  background-size: cover;
+  width: 700px;
+  height: 690px;
+  right: -184px;
+  z-index: -2;
+  animation: rotation 20s infinite;
+  -webkit-animation: rotation 20s infinite;
+}

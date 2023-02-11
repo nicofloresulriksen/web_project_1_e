@@ -1,0 +1,88 @@
+@-webkit-keyframes rotation {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #f2f2f2;
+  z-index: 0;
+  overflow: hidden;
+}
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+.header__subtitle {
+  width: 388px;
+  margin-left: 64px;
+  bottom: 30px;
+  position: absolute;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.header__link {
+  font-weight: normal;
+  color: rgb(39, 87, 245);
+  background: #f2f2f2;
+  margin-left: 64px;
+  bottom: 18px;
+  position: absolute;
+  line-height: 25px;
+  font-size: 18px;
+}
+.header__link:hover {
+  color: rgb(250, 248, 248);
+  background: #0a8bf5;
+  border-radius: 5px;
+}
+.header__main-ilustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 756px;
+  height: 608px;
+  object-fit: cover;
+}
+.header__square {
+  position: absolute;
+  right: 0;
+  top: 64px;
+  width: 568px;
+  height: 568px;
+  background-color: #076cf0;
+  z-index: -2;
+  rotate: -15deg;
+  animation: rotation 20s infinite;
+  -webkit-animation: rotation 20s infinite;
+}
+/* here we have two examples of selectors in order to remind you how to set styles for elements */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+}
+.logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo_place_header {
+  width: 154px;
+  height: 31px;
+  left: 64px;
+  top: 30px;
+  position: absolute;
+}
